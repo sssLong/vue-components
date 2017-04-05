@@ -33,6 +33,7 @@ export default {
   created(){
     this.alert("龙远，你好")
     this.$store.commit("setNow",this.$route.path.slice(1)?this.$route.path.slice(1):'dropdown')
+    console.log(this.now)
   }
 }
 </script>
